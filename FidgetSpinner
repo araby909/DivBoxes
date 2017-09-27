@@ -1,0 +1,20 @@
+//Divbox
+<div id = "spinner" onmousemove = "spin()">
+</div>
+
+
+
+//JS
+var i=0;
+function spin() {
+i+=100000000000000000000000000000000000;
+document.getElementById('spinner').style.transform = "rotate("+i+"deg)"; //make sure +i+
+}
+
+#spinner {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-image: url('https://sc02.alicdn.com/kf/HTB1fk__RpXXXXbxapXXq6xXFXXXs/229126566/HTB1fk__RpXXXXbxapXXq6xXFXXXs.jpg');
+}
+//changing size and put in picture
