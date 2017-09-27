@@ -1,0 +1,26 @@
+//HTML
+<div id = "countUp" onmousemove = "runCounter()">
+<h1 id = "theCounter"></h1>
+</div>
+//no spaces remember no spaces
+
+
+
+
+
+//JS
+var i=0;
+//make sure variable is global
+function runCounter() {
+ i++;
+ document.getElementById('theCounter').innerHTML = i;
+}
+
+
+
+//CSS
+#countUp {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
